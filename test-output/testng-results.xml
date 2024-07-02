@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-06-27T15:08:37 ICT" name="Default Suite" finished-at="2024-06-27T15:08:56 ICT" duration-ms="19479">
+    <groups>
+      <group name="loginSuccess">
+        <method signature="SearchTest.trueAccountLogin()[pri:0, instance:com.itlearn.testcases.SearchTest@a7f0ab6]" name="trueAccountLogin" class="com.itlearn.testcases.SearchTest"/>
+      </group> <!-- loginSuccess -->
+    </groups>
+    <test started-at="2024-06-27T15:08:37 ICT" name="ProjectElearning360" finished-at="2024-06-27T15:08:56 ICT" duration-ms="19479">
+      <class name="com.itlearn.testcases.SearchTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.itlearn.testcases.SearchTest@a7f0ab6]" started-at="2024-06-27T15:08:37 ICT" name="setUp" finished-at="2024-06-27T15:08:40 ICT" duration-ms="3912" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="trueAccountLogin()[pri:0, instance:com.itlearn.testcases.SearchTest@a7f0ab6]" started-at="2024-06-27T15:08:40 ICT" name="trueAccountLogin" finished-at="2024-06-27T15:08:42 ICT" duration-ms="1560" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- trueAccountLogin -->
+        <test-method signature="verifySearch(java.lang.String)[pri:0, instance:com.itlearn.testcases.SearchTest@a7f0ab6]" started-at="2024-06-27T15:08:42 ICT" name="verifySearch" data-provider="dataProvider" finished-at="2024-06-27T15:08:50 ICT" depends-on-methods="com.itlearn.testcases.SearchTest.trueAccountLogin" duration-ms="7770" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Iphone Prooducts ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearch -->
+        <test-method signature="verifySearch(java.lang.String)[pri:0, instance:com.itlearn.testcases.SearchTest@a7f0ab6]" started-at="2024-06-27T15:08:50 ICT" name="verifySearch" data-provider="dataProvider" finished-at="2024-06-27T15:08:56 ICT" depends-on-methods="com.itlearn.testcases.SearchTest.trueAccountLogin" duration-ms="6043" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[fridge Products]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearch -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.itlearn.testcases.SearchTest@a7f0ab6]" started-at="2024-06-27T15:08:56 ICT" name="tearDown" finished-at="2024-06-27T15:08:56 ICT" duration-ms="95" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.itlearn.testcases.SearchTest -->
+    </test> <!-- ProjectElearning360 -->
+  </suite> <!-- Default Suite -->
+</testng-results>
